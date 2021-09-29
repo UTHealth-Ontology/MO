@@ -1,0 +1,1084 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://sbmi.uth.edu/ontology/mo"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://sbmi.uth.edu/ontology/mo">
+    <Prefix name="" IRI="http://sbmi.uth.edu/ontology/mo"/>
+    <Prefix name="dc" IRI="http://purl.org/dc/elements/1.1/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="vocabulary" IRI="http://www.example.org/vocabulary#"/>
+    <Import>http://www.w3.org/2004/02/skos/core</Import>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:created"/>
+        <Literal>Tuan Amith, Cui Tao</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <Literal>An ontology for vaccine misinformation based on Misinformation Ontology by Zhou and Zhang (2004, 2007).</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="vocabulary:name"/>
+        <Literal>Misinformation Ontology by Zhou and Zhang</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Other"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Transgendered"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Transgendered_female_to_male"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Transgendered_male_to_female"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Baby_Boomers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#G.I._Generation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Generation_X"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Lost_Generation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Millennials"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#No_Evidence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Silent_Generation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Ambivalence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Asynchronous"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Audio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Benefiting_Others"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Benefiting_Someone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Colocated"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Communication_Channel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Concealment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Culture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Distortion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Distributed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Distribution_Method"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Ethnic_Culture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Falsification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Familiarity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Female"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Gender"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Generational_Culture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#High_Familiarity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#High_Recordability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Human_Being"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Image"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Indication"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Individual_Profile"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Low_Familiarity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Low_Recordability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Male"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Malicious_Intent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Misinformation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Modality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Motivation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#National_Culture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#NonImmediacy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Participants"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Protective_Action"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Receiver"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Recordability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Response_Latency"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Self-Reference"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Self-interest"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Sender"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Software_Agent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Subject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Synchronicity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Synchronous"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Text"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Video"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://sbmi.uth.edu/ontology/mo#belongsTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://sbmi.uth.edu/ontology/mo#hasChannel"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://sbmi.uth.edu/ontology/mo#hasCulture"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://sbmi.uth.edu/ontology/mo#hasDistributionMethod"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://sbmi.uth.edu/ontology/mo#hasFamiliarity"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://sbmi.uth.edu/ontology/mo#hasGender"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://sbmi.uth.edu/ontology/mo#hasIndividualProfile"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://sbmi.uth.edu/ontology/mo#hasMotivation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://sbmi.uth.edu/ontology/mo#hasReceiver"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://sbmi.uth.edu/ontology/mo#hasRecordability"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://sbmi.uth.edu/ontology/mo#hasSender"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://sbmi.uth.edu/ontology/mo#hasSyncroncity"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://sbmi.uth.edu/ontology/mo#isAbout"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://sbmi.uth.edu/ontology/mo#isInFormOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://sbmi.uth.edu/ontology/mo#isIndicated"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://sbmi.uth.edu/ontology/mo#hasNumberOfCues"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://sbmi.uth.edu/ontology/mo#hasAge"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://sbmi.uth.edu/ontology/mo#hasConfidence"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://sbmi.uth.edu/ontology/mo#hasEndTime"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://sbmi.uth.edu/ontology/mo#hasSize"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://sbmi.uth.edu/ontology/mo#hasStartTime"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dc:created"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="vocabulary:email"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="vocabulary:hasSkill"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="vocabulary:homepage"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="vocabulary:name"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Other"/>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Gender"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Transgendered"/>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Gender"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Transgendered_female_to_male"/>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Transgendered"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Transgendered_male_to_female"/>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Transgendered"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Baby_Boomers"/>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Generational_Culture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#G.I._Generation"/>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Generational_Culture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Generation_X"/>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Generational_Culture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Lost_Generation"/>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Generational_Culture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Millennials"/>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Generational_Culture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#No_Evidence"/>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Indication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#No_Evidence"/>
+        <DataExactCardinality cardinality="0">
+            <DataProperty IRI="http://sbmi.uth.edu/ontology/mo#hasNumberOfCues"/>
+            <Datatype abbreviatedIRI="xsd:int"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Silent_Generation"/>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Generational_Culture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Ambivalence"/>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Misinformation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Asynchronous"/>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Synchronicity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Audio"/>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Modality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Benefiting_Others"/>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Benefiting_Someone"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Benefiting_Someone"/>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Motivation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Colocated"/>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Distribution_Method"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Communication_Channel"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://sbmi.uth.edu/ontology/mo#hasRecordability"/>
+            <Class IRI="http://sbmi.uth.edu/ontology/mo#Recordability"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Communication_Channel"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://sbmi.uth.edu/ontology/mo#isInFormOf"/>
+            <Class IRI="http://sbmi.uth.edu/ontology/mo#Modality"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Communication_Channel"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="http://sbmi.uth.edu/ontology/mo#hasDistributionMethod"/>
+            <Class IRI="http://sbmi.uth.edu/ontology/mo#Distribution_Method"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Communication_Channel"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="http://sbmi.uth.edu/ontology/mo#hasSyncroncity"/>
+            <Class IRI="http://sbmi.uth.edu/ontology/mo#Synchronicity"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Concealment"/>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Misinformation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Distortion"/>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Misinformation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Distributed"/>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Distribution_Method"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Ethnic_Culture"/>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Culture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Falsification"/>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Misinformation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Female"/>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Gender"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Generational_Culture"/>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Culture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#High_Familiarity"/>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Familiarity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#High_Recordability"/>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Recordability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Human_Being"/>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Participants"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Human_Being"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="http://sbmi.uth.edu/ontology/mo#hasFamiliarity"/>
+            <Class IRI="http://sbmi.uth.edu/ontology/mo#Familiarity"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Human_Being"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="http://sbmi.uth.edu/ontology/mo#hasIndividualProfile"/>
+            <Class IRI="http://sbmi.uth.edu/ontology/mo#Individual_Profile"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Image"/>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Modality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Individual_Profile"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://sbmi.uth.edu/ontology/mo#hasCulture"/>
+            <Class IRI="http://sbmi.uth.edu/ontology/mo#Culture"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Individual_Profile"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="http://sbmi.uth.edu/ontology/mo#hasGender"/>
+            <Class IRI="http://sbmi.uth.edu/ontology/mo#Gender"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Low_Familiarity"/>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Familiarity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Low_Recordability"/>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Recordability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Male"/>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Gender"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Malicious_Intent"/>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Motivation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Misinformation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://sbmi.uth.edu/ontology/mo#hasMotivation"/>
+            <Class IRI="http://sbmi.uth.edu/ontology/mo#Motivation"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Misinformation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://sbmi.uth.edu/ontology/mo#hasReceiver"/>
+            <Class IRI="http://sbmi.uth.edu/ontology/mo#Receiver"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Misinformation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://sbmi.uth.edu/ontology/mo#hasSender"/>
+            <Class IRI="http://sbmi.uth.edu/ontology/mo#Sender"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Misinformation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://sbmi.uth.edu/ontology/mo#isAbout"/>
+            <Class IRI="http://sbmi.uth.edu/ontology/mo#Subject"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Misinformation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://sbmi.uth.edu/ontology/mo#isIndicated"/>
+            <Class IRI="http://sbmi.uth.edu/ontology/mo#Indication"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Misinformation"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="http://sbmi.uth.edu/ontology/mo#hasEndTime"/>
+            <Datatype abbreviatedIRI="xsd:dateTime"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Misinformation"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="http://sbmi.uth.edu/ontology/mo#hasStartTime"/>
+            <Datatype abbreviatedIRI="xsd:dateTime"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Misinformation"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="http://sbmi.uth.edu/ontology/mo#hasConfidence"/>
+            <Datatype abbreviatedIRI="xsd:double"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#National_Culture"/>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Culture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#NonImmediacy"/>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Indication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Participants"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="http://sbmi.uth.edu/ontology/mo#hasSize"/>
+            <Datatype abbreviatedIRI="xsd:int"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Protective_Action"/>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Motivation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Receiver"/>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Participants"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Response_Latency"/>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Indication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Self-Reference"/>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Indication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Self-interest"/>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Benefiting_Someone"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Sender"/>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Participants"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Software_Agent"/>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Participants"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Synchronous"/>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Synchronicity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Text"/>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Modality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Video"/>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Modality"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Ambivalence"/>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Concealment"/>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Distortion"/>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Falsification"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Asynchronous"/>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Synchronous"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Colocated"/>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Distributed"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Human_Being"/>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Software_Agent"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Receiver"/>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Sender"/>
+    </DisjointClasses>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://sbmi.uth.edu/ontology/mo#isInFormOf"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="http://sbmi.uth.edu/ontology/mo#isIndicated"/>
+    </FunctionalObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="http://sbmi.uth.edu/ontology/mo#hasMotivation"/>
+    </AsymmetricObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://sbmi.uth.edu/ontology/mo#belongsTo"/>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Individual_Profile"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://sbmi.uth.edu/ontology/mo#hasChannel"/>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Misinformation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://sbmi.uth.edu/ontology/mo#hasCulture"/>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Individual_Profile"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://sbmi.uth.edu/ontology/mo#hasDistributionMethod"/>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Communication_Channel"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://sbmi.uth.edu/ontology/mo#hasFamiliarity"/>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Human_Being"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://sbmi.uth.edu/ontology/mo#hasGender"/>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Individual_Profile"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://sbmi.uth.edu/ontology/mo#hasIndividualProfile"/>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Human_Being"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://sbmi.uth.edu/ontology/mo#hasMotivation"/>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Misinformation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://sbmi.uth.edu/ontology/mo#hasReceiver"/>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Misinformation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://sbmi.uth.edu/ontology/mo#hasRecordability"/>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Communication_Channel"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://sbmi.uth.edu/ontology/mo#hasSender"/>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Misinformation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://sbmi.uth.edu/ontology/mo#hasSyncroncity"/>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Communication_Channel"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://sbmi.uth.edu/ontology/mo#isAbout"/>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Misinformation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://sbmi.uth.edu/ontology/mo#isInFormOf"/>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Communication_Channel"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://sbmi.uth.edu/ontology/mo#isIndicated"/>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Misinformation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://sbmi.uth.edu/ontology/mo#belongsTo"/>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Culture"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://sbmi.uth.edu/ontology/mo#hasChannel"/>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Communication_Channel"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://sbmi.uth.edu/ontology/mo#hasCulture"/>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Culture"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://sbmi.uth.edu/ontology/mo#hasDistributionMethod"/>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Distribution_Method"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://sbmi.uth.edu/ontology/mo#hasFamiliarity"/>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Familiarity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://sbmi.uth.edu/ontology/mo#hasGender"/>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Gender"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://sbmi.uth.edu/ontology/mo#hasIndividualProfile"/>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Individual_Profile"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://sbmi.uth.edu/ontology/mo#hasMotivation"/>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Motivation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://sbmi.uth.edu/ontology/mo#hasReceiver"/>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Receiver"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://sbmi.uth.edu/ontology/mo#hasRecordability"/>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Recordability"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://sbmi.uth.edu/ontology/mo#hasSender"/>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Sender"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://sbmi.uth.edu/ontology/mo#hasSyncroncity"/>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Synchronicity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://sbmi.uth.edu/ontology/mo#isAbout"/>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Subject"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://sbmi.uth.edu/ontology/mo#isInFormOf"/>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Modality"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://sbmi.uth.edu/ontology/mo#isIndicated"/>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Indication"/>
+    </ObjectPropertyRange>
+    <FunctionalDataProperty>
+        <DataProperty IRI="http://sbmi.uth.edu/ontology/mo#hasNumberOfCues"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="http://sbmi.uth.edu/ontology/mo#hasAge"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="http://sbmi.uth.edu/ontology/mo#hasConfidence"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="http://sbmi.uth.edu/ontology/mo#hasStartTime"/>
+    </FunctionalDataProperty>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://sbmi.uth.edu/ontology/mo#hasNumberOfCues"/>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Indication"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://sbmi.uth.edu/ontology/mo#hasAge"/>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Human_Being"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://sbmi.uth.edu/ontology/mo#hasConfidence"/>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Misinformation"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://sbmi.uth.edu/ontology/mo#hasEndTime"/>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Misinformation"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://sbmi.uth.edu/ontology/mo#hasSize"/>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Participants"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://sbmi.uth.edu/ontology/mo#hasStartTime"/>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Misinformation"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="http://sbmi.uth.edu/ontology/mo#hasNumberOfCues"/>
+        <Datatype abbreviatedIRI="owl:real"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://sbmi.uth.edu/ontology/mo#hasAge"/>
+        <Datatype abbreviatedIRI="owl:real"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://sbmi.uth.edu/ontology/mo#hasConfidence"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://sbmi.uth.edu/ontology/mo#hasEndTime"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://sbmi.uth.edu/ontology/mo#hasSize"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://sbmi.uth.edu/ontology/mo#hasStartTime"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>#Transgendered</IRI>
+        <Literal>surgical physical alteration of gender finding</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>#Transgendered_female_to_male</IRI>
+        <Literal>surgical physical alteration of gender finding, from previously female to currently male.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>#Transgendered_male_to_female</IRI>
+        <Literal>surgical physical alteration of gender finding, from previously male to currently female.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>http://sbmi.uth.edu/ontology/mo#Baby_Boomers</IRI>
+        <Literal>birth between 1946 to 1964 (Pew Research Center, http://www.pewresearch.org/methodology/demographic-research/definitions/)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>http://sbmi.uth.edu/ontology/mo#G.I._Generation</IRI>
+        <Literal>born from 1901 to 1927 (Pew Research Center, http://www.pewresearch.org/methodology/demographic-research/definitions/)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>http://sbmi.uth.edu/ontology/mo#Generation_X</IRI>
+        <Literal>born from 1965 to 1980 (Pew Research Center, http://www.pewresearch.org/methodology/demographic-research/definitions/)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>http://sbmi.uth.edu/ontology/mo#Lost_Generation</IRI>
+        <Literal>people born between 1883–1900 (William Strauss and Neil Howe, 1997)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>http://sbmi.uth.edu/ontology/mo#Millennials</IRI>
+        <Literal>born after 1980 (Pew Research Center, http://www.pewresearch.org/methodology/demographic-research/definitions/)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>http://sbmi.uth.edu/ontology/mo#Silent_Generation</IRI>
+        <Literal>born from 1928 to 1945 (Pew Research Center, http://www.pewresearch.org/methodology/demographic-research/definitions/)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>http://sbmi.uth.edu/ontology/mo#Ambivalence</IRI>
+        <Literal>&quot;leaving a receiver in a state of uncertainty about specific issues&quot; (Zhou and Zhang, 2007)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>http://sbmi.uth.edu/ontology/mo#Asynchronous</IRI>
+        <Literal>Information is exchanged between sender and receiver nonsimultaneously. In this situataion, time has passed from the time information communicated by the sender is received by receiver.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>http://sbmi.uth.edu/ontology/mo#Audio</IRI>
+        <Literal>misinformation expressed in audtiory form</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>http://sbmi.uth.edu/ontology/mo#Benefiting_Others</IRI>
+        <Literal>motiviation for communicating misinformation to assist someone or group.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>http://sbmi.uth.edu/ontology/mo#Benefiting_Someone</IRI>
+        <Literal>a motivation for communicating misinformation due to help an individual(s)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>http://sbmi.uth.edu/ontology/mo#Colocated</IRI>
+        <Literal>Information is exchanged when both sender and receiver are physically present</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>http://sbmi.uth.edu/ontology/mo#Communication_Channel</IRI>
+        <Literal>&quot;The communication channel comes in a variety of forms such as face-to-face communication, phone, e-mail, and public speech. Choosing communication channels is an integral part of the entire course of misinformation transmission.&quot; Zhou and Zhang, 2007</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>http://sbmi.uth.edu/ontology/mo#Concealment</IRI>
+        <Literal>&quot;hiding certain information from reaching consciousness&quot; (Zhou and Zhang, 2007)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>http://sbmi.uth.edu/ontology/mo#Culture</IRI>
+        <Literal>&quot;he set of values, conventions, or social practices associated with a particular field, activity, or societal characteristic&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>http://sbmi.uth.edu/ontology/mo#Culture</IRI>
+        <Literal>&quot;the customary beliefs, social forms, and material traits of a racial, religious, or social group; also : the characteristic features of everyday existence (such as diversions or a way of life) shared by people in a place or time&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>http://sbmi.uth.edu/ontology/mo#Culture</IRI>
+        <Literal>&quot;the set of shared attitudes, values, goals, and practices that characterizes an institution or organization&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>http://sbmi.uth.edu/ontology/mo#Distortion</IRI>
+        <Literal>&quot;misrepresenting original information to counter consciousness&quot; (Zhou and Zhang, 2007)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>http://sbmi.uth.edu/ontology/mo#Distributed</IRI>
+        <Literal>information is transmitted by any type of modality from one physical location (by the sender) to another location (to the receiver).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>http://sbmi.uth.edu/ontology/mo#Distribution_Method</IRI>
+        <Literal>&quot;representing whether the sender and the receiver are physically located at the same place or are distributed while sending/receiving misinformation&quot; (Zhou and Zhang, 2007)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>http://sbmi.uth.edu/ontology/mo#Ethnic_Culture</IRI>
+        <Literal>cultural classification based on ethnic identity of the group or individual, e.g. Maori, Irish, Ainu, etc.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>http://sbmi.uth.edu/ontology/mo#Falsification</IRI>
+        <Literal>&quot;fabricating certain conscious information&quot; (Zhou and Zhang, 2007)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>http://sbmi.uth.edu/ontology/mo#Familiarity</IRI>
+        <Literal>&quot;The familiarity between a sender and a receiver of misinformation may influence the sender’s choice on what type of misinformation to produce and how to transmit it.&quot; (Zhou and Zhang, 2007)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://sbmi.uth.edu/ontology/mo#Gender</IRI>
+        <Literal>classification of gender based on SNOMED CT (F-009C8)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>http://sbmi.uth.edu/ontology/mo#Generational_Culture</IRI>
+        <Literal>classification of cultural idenitity based on generational birth year.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>http://sbmi.uth.edu/ontology/mo#Human_Being</IRI>
+        <Literal>homo sapien participant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>http://sbmi.uth.edu/ontology/mo#Image</IRI>
+        <Literal>misinformation expresesed as a static image format</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>http://sbmi.uth.edu/ontology/mo#Indication</IRI>
+        <Literal>&quot;indicators of misinformation&quot; (Zhou and Zhang, 2007)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://sbmi.uth.edu/ontology/mo#Indication</IRI>
+        <Literal>Zhou and Zhang have stated that this concept would need further development in the future. &quot;The definition of a class can be enriched with additional ontological information. We would like to leave such extensions for future research.&quot; (Zhou and Zhang, 2007)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://sbmi.uth.edu/ontology/mo#Indication</IRI>
+        <Literal>aka &quot;cues&quot; of misinformation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://sbmi.uth.edu/ontology/mo#Indication</IRI>
+        <Literal>replace with Provenance ontology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://sbmi.uth.edu/ontology/mo#Indication</IRI>
+        <Literal>supporting information for the Content (misinformation)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>http://sbmi.uth.edu/ontology/mo#Individual_Profile</IRI>
+        <Literal>&quot;Prior deception research has suggested that some demographic features such as gender (Cody and Hair, 1983), age (Keating and Heltman, 1994), and cultural profile (Zhou and Lutterbie, 2005) of human information senders or receivers have impact on deception.&quot; (Zhou and Zhang, 2007)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>http://sbmi.uth.edu/ontology/mo#Malicious_Intent</IRI>
+        <Literal>a motiviation for communicating misinformation to do harm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>http://sbmi.uth.edu/ontology/mo#Misinformation</IRI>
+        <Literal>Central concept of the Misinformation Ontology by Zhou and Zhang</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>http://sbmi.uth.edu/ontology/mo#Modality</IRI>
+        <Literal>&quot;representing how misinformation is encoded (e.g., in text, audio, video, image, or any of their combinations);&quot; (Zhou and Zhang, 2007)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://sbmi.uth.edu/ontology/mo#Modality</IRI>
+        <Literal>form in which misinformation is expressed</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>http://sbmi.uth.edu/ontology/mo#Motivation</IRI>
+        <Literal>&quot;The production and dissemination of misinformation are commonly driven by motivations of creating conditions for positive attributions of worth (Rue, 1994)&quot; (Zhou and Zhang, 2007)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>http://sbmi.uth.edu/ontology/mo#National_Culture</IRI>
+        <Literal>cultural classification based on nationality</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>http://sbmi.uth.edu/ontology/mo#Participants</IRI>
+        <Literal>agents involved in the communication of misinformation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://sbmi.uth.edu/ontology/mo#Participants</IRI>
+        <Literal>originally MO involved just sender and reciever classes. According to Zhou and Zhang, &quot;Misinformation involves both the sender and the receiver, who are involved in producing and receiving misinformation, respectively. The sender of one misinformation instance may be the receiver of another one.&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>http://sbmi.uth.edu/ontology/mo#Protective_Action</IRI>
+        <Literal>a motiviation for communicating misinformation in order to shield the sender of misinformation, another individual, or group.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>http://sbmi.uth.edu/ontology/mo#Receiver</IRI>
+        <Literal>a participant who is on the receiving end of misinformation communication.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>http://sbmi.uth.edu/ontology/mo#Recordability</IRI>
+        <Literal>&quot;representing whether or not misinformation is archived for later reference.&quot; (Zhou and Zhang, 2007)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>http://sbmi.uth.edu/ontology/mo#Self-interest</IRI>
+        <Literal>a motivation for misinformation that relates to benefiting the individual(s) (i.e. sender) communicating misinformation.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>http://sbmi.uth.edu/ontology/mo#Sender</IRI>
+        <Literal>a participant who is communicating misinformation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>http://sbmi.uth.edu/ontology/mo#Software_Agent</IRI>
+        <Literal>A machine-based actor/participant who may be a sender or receiver of misinformation, e.g. chatbot, robot, etc.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://sbmi.uth.edu/ontology/mo#Subject</IRI>
+        <Literal>Corresponds to Zhou and Zhang&apos;s object, &quot;object indicates what misinformation is false about&quot; (Zhou and Zhang, 2007)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://sbmi.uth.edu/ontology/mo#Subject</IRI>
+        <Literal>relates to what the misinformation is about</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>http://sbmi.uth.edu/ontology/mo#Synchronicity</IRI>
+        <Literal>&quot;representing whether the sender and receiver are exchanging information simultaneously&quot; (Zhou and Zhang, 2007)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>http://sbmi.uth.edu/ontology/mo#Synchronous</IRI>
+        <Literal>Information is exchanged between the sender and receiver simultaneously (i.e. real time). An example are two people (sender and receiver) having face-to-face communication.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>http://sbmi.uth.edu/ontology/mo#Text</IRI>
+        <Literal>misinformation expressed in textual format</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>http://sbmi.uth.edu/ontology/mo#Video</IRI>
+        <Literal>misinformation expressed in moving images</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
